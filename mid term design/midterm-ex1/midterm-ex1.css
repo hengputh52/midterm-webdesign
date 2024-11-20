@@ -1,0 +1,43 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+    color: #343a40;
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+  }
+  section{
+    display: grid;
+    width: 800px;
+    grid-template-columns: repeat(4,1fr);
+    
+    
+  }
+  
+  .first{
+    border-left: solid;
+  }
+  .fourth{
+    border-right: solid;
+  }
+  .first div, .second div, .third div, .fourth div{
+    
+    border-collapse: collapse;
+    padding: 20px;
+  }
+  #one, #two, #three, #four{
+    background-color: green;
+    color: white;
+  }
+  #height, #cm, #cm-1, #cm-2, #weight, #kg-1 ,#kg-2, #kg-3{
+    background-color: rgb(136, 133, 128);
+    color: white;
+  }
+  
+  
